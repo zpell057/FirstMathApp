@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="21dp"
+    tools:layout_editor_absoluteY="-9dp">
+
+
+    <Button
+        android:id="@+id/buttonplus"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="161dp"
+        android:layout_height="173dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="212dp"
+        android:onClick="lancerPlus"
+        android:text="+"
+        android:textColorLink="@color/yellow"
+        android:textSize="60sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonmoins"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="161dp"
+        android:layout_height="173dp"
+        android:layout_marginTop="212dp"
+
+        android:layout_marginEnd="36dp"
+        android:onClick="lancerMoins"
+        android:text="-"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonfois"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="161dp"
+        android:layout_height="173dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginBottom="152dp"
+        android:onClick="lancerFois"
+        android:text="X"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttondivis"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="161dp"
+        android:layout_height="173dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="152dp"
+        android:onClick="lancerDiv"
+        android:text="%"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
